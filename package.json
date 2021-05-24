@@ -1,0 +1,16 @@
+{
+  "name": "carter",
+  "version": "0.0.1",
+  "description": "This is a fork of the Nexter project as part of Jonas Schmedtman's course on Advanced CSS/Sass. Inetead of selling houses, we are selling cars.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "html"
+  ],
+  "author": "Mikey Nichols",
+  "license": "ISC"
+}
