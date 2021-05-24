@@ -1,6 +1,6 @@
 {
   "name": "omnifood-fork",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A fork of the project Omnifood proivided from Jonas.io. I am following along the tutorial to create a basic html and css webpage. Instead of copying his content, I will be modifying it to suit the needs of a fictional company that helps unite homeless kitties with a new owner.",
   "main": "index.js",
   "scripts": {
