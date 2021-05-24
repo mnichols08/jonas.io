@@ -84,7 +84,7 @@ a:visited {
 }
 a:hover,
 a:active {
-  color: #555;
+  color: #ff738c;
   border-bottom: 1px solid transparent;
 }
 /* ----- Paragraphs ----- */
@@ -135,6 +135,7 @@ input[type=submit] {
   font-weight: 300;
   text-decoration: none;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
+  border-radius: 3px;
 }
 .btn-full:link,
 .btn-full:visited,
