@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile-less": "lessc vendors/less/index.less assets/css/index.css",
-    "devserver": "live-server assets",
+    "devserver": "live-server",
     "watch-less": "less-watch-compiler vendors/less assets/css/ index.less",
     "start": "npm-run-all --parallel devserver watch-less",
     "compile": "npm-run-all --parallel devserver compile-less"
