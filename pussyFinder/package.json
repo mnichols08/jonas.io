@@ -1,0 +1,26 @@
+{
+  "name": "omnifood-fork",
+  "version": "1.0.0",
+  "description": "A fork of the project Omnifood proivided from Jonas.io. I am following along the tutorial to create a basic html and css webpage. Instead of copying his content, I will be modifying it to suit the needs of a fictional company that helps unite homeless kitties with a new owner.",
+  "main": "index.js",
+  "scripts": {
+    "compile-less": "lessc vendors/less/index.less assets/css/index.css",
+    "devserver": "live-server",
+    "watch-less": "less-watch-compiler vendors/less assets/css/ index.less",
+    "start": "npm-run-all --parallel devserver watch-less",
+    "compile": "npm-run-all --parallel devserver compile-less"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "less"
+  ],
+  "author": "Mikey Nichols",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.1.3",
+    "less-watch-compiler": "^1.16.3",
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5"
+  }
+}
